@@ -1,0 +1,11 @@
+cp_cop:
+    resource: "@CPCopBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cp_project:
+    resource: "@CPProjectBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
